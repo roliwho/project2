@@ -105,3 +105,50 @@ text-align: center;
 color: #fff;
 margin-top: 25px;
     }
+    /* dropdown */
+    .dropdown {
+        position: relative;
+    }
+    .dropdown-content {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .dropdown-content {
+        position: absolute;
+        display: none;
+    }
+    .dropdown:hover .dropdown-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu a:hover {
+        color: aqua;
+        font-size: 16px;
+    }
+    .menu button {
+        padding: 30px 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        background: none;
+        position: relative;
+    }
+    .menu button::after {
+        content: "";
+        background-image: url(./img/down-arrow.png);
+        background-size: 21px;
+        background-repeat: non-repeat;
+        position: absolute;
+        top: 38%;
+        left: 100%;
+        width:25px;
+        height: 25px;
+        
+    
+    }
+    
+
+    
